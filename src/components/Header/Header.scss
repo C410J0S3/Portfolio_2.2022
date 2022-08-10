@@ -1,0 +1,96 @@
+$green: #00ff00 ;
+$pink: #FF0099 ;
+$blue: #00ffff ;
+$white: #ffffff ;
+$black: #000000 ;
+$clear: #ffffff9a ;
+$box-shadow: -5px 5px 0px #FF0099, 5px -5px 0px #00ffff ;
+$box-hover: 5px -5px 0px #FF0099 , -5px 5px 0px #00ffff;
+$tran: 500ms all ease-in-out ;
+
+#header{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    background-color: #000000;
+    overflow: visible;
+    opacity: 1;
+    z-index: 999;
+}
+
+.header{
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+}
+
+.header a{
+    width: 220px;
+    height: 50px;
+}
+
+.logo{
+    width: 220px;
+    height: 50px;
+    opacity: 1;
+}
+
+.logo .bg_logo{
+    width: 60px;
+    height: 50px;
+    background-image: url(../media/Logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo .scan{
+    position: relative;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    opacity: 1;
+    color: #000000;
+    -webkit-text-stroke: 0.1vw $pink;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+    &::before{
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: $blue;
+        -webkit-text-stroke: 0.0vw $pink;
+        border-right: 2px solid $blue;
+        overflow: hidden;
+        animation: escrever 3s linear infinite;
+    }
+}
+
+@keyframes escrever {
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header a{
+        width: 130px;
+    }
+
+    .logo{
+       width: 120px; 
+
+    }
+    .logo .scan{
+        font-size: 0.8rem;
+        margin-left: 10px;
+    }
+}
