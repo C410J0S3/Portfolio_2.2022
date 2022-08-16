@@ -24,7 +24,7 @@ const Home = () => {
             </div>
 
             <motion.div variants={WebAnimation} transition={{delay: 1.6, duration: 0.6, type: "tween"}} id='Btn_main' className='flex' >
-              <a href='https://drive.google.com/file/d/1a3pibnlvWU7086DLRlcu9RHQzsBCtGQR/view?usp=sharing' target='_blank' rel='noopener noreferrer' className='Btn_CV flex'>Download CV</a>
+              <a href='https://drive.google.com/file/d/1FcmTX212u5fopgin_wCJmiq4r1lNAWNt/view?usp=sharing' target='_blank' rel='noopener noreferrer' className='Btn_CV flex'>Download CV</a>
               <a href='#Portfolio' className='Btn_main flex'>Portfólio</a>
             </motion.div>
 

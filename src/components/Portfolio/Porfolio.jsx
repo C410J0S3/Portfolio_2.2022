@@ -31,7 +31,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Tattoo</h3>
                   <p>Site feito em HTML / CSS / JS com uso e Jquery / TweenMax / ScrollMagic usando tambem Google Maps. <br/>
-                  <a href="https://github.com/CaiOliveira19/tattoo_page" target="_blank" rel="noopener noreferrer">@Tattoo</a></p>
+                  <a href="https://github.com/C410J0S3/Tattoo-Page" target="_blank" rel="noopener noreferrer">@Tattoo</a></p>
                 </div>
               </li>
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Lineage II</h3>
                   <p>Site em HTML / CSS / JS . Criado para sites de servers de Lineage II, com area de Login e Download.<br/>
-                  <a href="https://github.com/CaiOliveira19/page_l2" target="_blank" rel="noopener noreferrer">@Lineage II</a></p>
+                  <a href="https://github.com/C410J0S3/Page_L2" target="_blank" rel="noopener noreferrer">@Lineage II</a></p>
                 </div>
               </li>
 
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Clone instagram</h3>
                   <p>Clone do instagram feito como desafio do Bootcamp Impulso JavaScript da Dio.<br/>
-                  <a href="https://github.com/CaiOliveira19/instagram-clone" target="_blank" rel="noopener noreferrer">@Clone instagram</a></p>
+                  <a href="https://github.com/C410J0S3/insta_clone" target="_blank" rel="noopener noreferrer">@Clone instagram</a></p>
                 </div>
               </li>
 
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Wolf</h3>
                   <p>Site feito em HTML / CSS / JS com uso e Jquery / TweenMax / ScrollMagic. composição do Portfólio<br/>
-                  <a href="https://github.com/CaiOliveira19/Wolf" target="_blank" rel="noopener noreferrer">@Wolf</a></p>
+                  <a href="https://github.com/C410J0S3/Wolf_Page" target="_blank" rel="noopener noreferrer">@Wolf</a></p>
                 </div>
               </li>
 
@@ -67,7 +67,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Buscador de Cep</h3>
                   <p>Feito em React JS utilizando API Busca Cep para fazer a pesquisa apresentando endereço do cep buscado.<br/>
-                  <a href="https://github.com/CaiOliveira19/React_Buscador_Cep" target="_blank" rel="noopener noreferrer">@BuscaCep</a></p>
+                  <a href="https://github.com/C410J0S3/Busca_Cep" target="_blank" rel="noopener noreferrer">@BuscaCep</a></p>
                 </div>
               </li>
 
@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Portfólio</h3>
                   <p>Portfólio em React Js para apresentação dos projetos.<br/>
-                  <a href="https://caioliveira19.github.io/CaiOliveiraDev/" target="_blank" rel="noopener noreferrer">@Portfólio</a></p>
+                  <a href="https://c410j0s3.github.io/Portfolio_Pages/" target="_blank" rel="noopener noreferrer">@Portfólio</a></p>
                 </div>
               </li>
 
