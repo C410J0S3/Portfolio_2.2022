@@ -15,32 +15,30 @@ $tran: 500ms all ease-in-out ;
     background-position: center;
     background-size: cover;
     color: $white;
-}
-
-.container_CV{
-    max-width: 1600px;
-    height: 30vh;
-}
-
-.container_CV h1{
-    text-align: center;
-    font-size: 3rem;
-}
-
-.container_CV p{
-    text-align: center;
-    font-size: 1.1rem;
-    color: $clear;
-}
-
-.container_CV a{
-    width: 200px;
-    height: 60px;
-    box-shadow: $box-shadow;
-    transition: 200ms all ease-in-out;
-    &:hover{
-        transform: rotate(10deg);
-        box-shadow: $box-hover;
+    .container_CV{
+        max-width: 1600px;
+        height: 30vh;
+        h1{
+            text-align: center;
+            font-size: 3rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.1rem;
+            color: $clear;
+        }
+        a{
+            width: 200px;
+            height: 60px;
+            color: $black;
+            background-color: $white;
+            box-shadow: $box-shadow;
+            transition: 200ms all ease-in-out;
+            &:hover{
+                transform: rotate(10deg);
+                box-shadow: $box-hover;
+            }
+        }
     }
 }
 

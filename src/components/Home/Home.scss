@@ -37,87 +37,85 @@ $tran: 500ms all ease-in-out ;
 .txt_main{
     width: 100%;
     height: 45%;
-
-}
-
-.txt_main h3{
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
-
-
-.txt_main h1{
-    font-size: 5.8rem;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-    text-shadow:  3px 3px 0px #FF0099,-3px 1px 0px #00ffff;
-    text-transform: uppercase;
-}
-
-.txt_main a{
-    font-size: 10px;
-    font-family: 'Press Start 2P', cursive;
-    color: $white;
-    -webkit-animation: icon3d 200ms 10;
-    animation: icon3d 200ms 10;
-    &:hover{
-        -webkit-animation: icon3d 200ms infinite;
-        animation: icon3d 200ms infinite;
+    h3{
+        font-size: 1.5rem;
+        font-weight: 300;
     }
+    h1{
+        font-size: 5.8rem;
+        font-weight: 600;
+        font-family: 'Inter', sans-serif;
+        text-shadow:  3px 3px 0px #FF0099,-3px 1px 0px #00ffff;
+        text-transform: uppercase;
+    }
+    a{
+        font-size: 10px;
+        font-family: 'Press Start 2P', cursive;
+        color: $white;
+        -webkit-animation: icon3d 200ms 10;
+        animation: icon3d 200ms 10;
+        &:hover{
+            -webkit-animation: icon3d 200ms infinite;
+            animation: icon3d 200ms infinite;
+        }
+    }
+    
 }
 
 #Btn_main{
     width: 450px;
     height: 70px;
     flex-direction: row;
-}
-
-.Btn_CV{
-    width: 180px;
-    height: 45px;
-    cursor: pointer;
-    background-color: $white;
-    color: $black;
-    margin-right: 50px;
-    border-radius: 0px;
-    transition: 200ms all ease-in-out;
-    box-shadow:$box-shadow;
-    &:hover{
-        box-shadow: $box-hover;
+    .Btn_CV{
+        width: 180px;
+        height: 45px;
+        cursor: pointer;
+        background-color: $white;
+        color: $black;
+        margin-right: 50px;
+        border-radius: 0px;
+        transition: 200ms all ease-in-out;
+        box-shadow:$box-shadow;
+        &:hover{
+            box-shadow: $box-hover;
+        }
+    }
+    .Btn_main{
+        width: 180px;
+        height: 45px;
+        cursor: pointer;
+        color: var(--white);
+        background-color: transparent;
+        border-radius: 0px;
+        transition: 200ms all ease-in-out;
+        box-shadow: $box-shadow;
+        &:hover{
+            box-shadow: $box-hover;
+        }
     }
 }
 
-.Btn_main{
-    width: 180px;
-    height: 45px;
-    cursor: pointer;
-    color: var(--white);
-    background-color: transparent;
-    border-radius: 0px;
-    transition: 200ms all ease-in-out;
-    box-shadow: $box-shadow;
-    &:hover{
-        box-shadow: $box-hover;
-    }
-}
+
+
+
 
 .Social{
     width: 400px;
     height: 70px;
     margin-top: 30px;
-  }
-  
-.Social a {
-    font-size: 2rem;
-    -webkit-animation: icons 200ms 10;
-    animation: icons 200ms 10;
-    color: $white; 
-    &:hover{
-        -webkit-animation: icons 200ms infinite;
-        animation: icons 200ms infinite;
+    a {
+        font-size: 2rem;
+        -webkit-animation: icons 200ms 10;
+        animation: icons 200ms 10;
+        color: $white; 
+        &:hover{
+            -webkit-animation: icons 200ms infinite;
+            animation: icons 200ms infinite;
+        }
     }
 }
+  
+
 
 @keyframes icons {
     0%,100% {
@@ -149,13 +147,14 @@ $tran: 500ms all ease-in-out ;
   }
 
   @media screen and (max-width: 699px) {
-    .txt_main h1{
-        font-size: 4rem;
-        margin: 30px 0px;
-    }
-
-    .txt_main a{
+    .txt_main {
+        h1{
+            font-size: 4rem;
+            margin: 30px 0px;
+        }
+        a{
         font-size: 8px;
+        }
     }
 
     .Btn_CV{
@@ -174,18 +173,16 @@ $tran: 500ms all ease-in-out ;
         margin-left: 0px;
     }
 
-    .txt_main h1{
-        font-size: 3.5rem;
-        margin: 30px 0px;
+    .txt_main{
+        h1{
+            font-size: 3.5rem;
+            margin: 30px 0px;
+        }
+        a{
+            font-size: 8px;
+        }
     }
 
-    .txt_main a{
-        font-size: 8px;
-    }
-
-    .Btn_CV{
-        margin-right: 10px;
-    }
 
     .Social{
         width: 100%;
@@ -194,15 +191,14 @@ $tran: 500ms all ease-in-out ;
 
     #Btn_main{
         width: 300px;
-        margin-left: 10px
-    }
-    
-    .Btn_CV{
-        width: 140px;
-    }
-    
-    .Btn_main{
-        width: 140px;
+        margin-left: 10px;
+        .Btn_CV{
+            margin-right: 10px;
+            width: 140px;
+        }
+        .Btn_main{
+            width: 140px;
+        }
     }
     
   }

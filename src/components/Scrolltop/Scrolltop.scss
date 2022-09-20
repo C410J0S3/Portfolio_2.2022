@@ -20,15 +20,15 @@ $tran: 500ms all ease-in-out ;
     cursor: pointer;
     background-color: rgba(81, 255, 0, 0.363);
     z-index: 99;
-}
-
-.scroll a{
-    font-size: 1.5rem;
-    color: $white;
-    &:hover{
-    background-color: $clear;
+    a{
+        font-size: 1.5rem;
+        color: $white;
+        &:hover{
+        background-color: $clear;
+        }
     }
 }
+
 
 @media screen and (max-width:500px){
 

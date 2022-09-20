@@ -25,49 +25,22 @@ $tran: 500ms all ease-in-out ;
     width: 100%;
     max-width: 1600px;
     height: 100%;
-}
-
-.header a{
-    width: 220px;
-    height: 50px;
-}
-
-.logo{
-    width: 220px;
-    height: 50px;
-    opacity: 1;
-}
-
-.logo .bg_logo{
-    width: 60px;
-    height: 50px;
-    background-image: url(../media/Logo.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.logo .scan{
-    position: relative;
-    margin-left: 20px;
-    font-size: 1.1rem;
-    opacity: 1;
-    color: #000000;
-    -webkit-text-stroke: 0.1vw $pink;
-    text-transform: uppercase;
-    font-family: 'Press Start 2P', cursive;
-    &::before{
-        content: attr(data-text);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        color: $blue;
-        -webkit-text-stroke: 0.0vw $pink;
-        border-right: 2px solid $blue;
-        overflow: hidden;
-        animation: escrever 3s linear infinite;
+    a{
+        width: 220px;
+        height: 50px;
+        .logo{
+            width: 220px;
+            height: 50px;
+            opacity: 1;
+            .bg_logo{
+                width: 60px;
+                height: 50px;
+                background-image: url(../media/Logo.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
     }
 }
 
@@ -87,10 +60,9 @@ $tran: 500ms all ease-in-out ;
 
     .logo{
        width: 120px; 
-
-    }
-    .logo .scan{
-        font-size: 0.8rem;
-        margin-left: 10px;
+        .scan{
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
     }
 }

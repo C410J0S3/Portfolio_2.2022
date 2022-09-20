@@ -22,23 +22,22 @@ $tran: 500ms all ease-in-out ;
     align-items: center;
     font-size: 1.1rem;
     font-size: 300;
+    .link{
+      width: 140px;
+      text-align: center;
+      a{
+        -webkit-animation: icon3d 200ms 10;
+        animation: icon3d 200ms 10;
+        color: $white;  
+        &:hover {
+          -webkit-animation: icon3d 200ms infinite;
+          animation: icon3d 200ms infinite;
+        }
+      }
+    }
+
 }
 
-.Menu .link{
-    width: 140px;
-    text-align: center;
-}
-
-.Menu .link a{
-  -webkit-animation: icon3d 200ms 10;
-  animation: icon3d 200ms 10;
-  color: $white;  
-  &:hover {
-    -webkit-animation: icon3d 200ms infinite;
-    animation: icon3d 200ms infinite;
-  }
-}
-  
   @keyframes icon3d {
     0% {
       text-shadow: 5px 4px #FF0099, -5px -6px #00ffff;
@@ -68,18 +67,17 @@ $tran: 500ms all ease-in-out ;
     color: $white;
     font-size: 1rem;
     background-color: transparent;
-}
+    span{
+      -webkit-animation: icon3d 200ms 10;
+      animation: icon3d 200ms 10;
+      color: $white;  
+      &:hover{
+        -webkit-animation: icon3d 200ms infinite;
+        animation: icon3d 200ms infinite;
+        }
+      }
+    }
 
-.Btn_Menu span{
-    -webkit-animation: icon3d 200ms 10;
-    animation: icon3d 200ms 10;
-    color: $white;  
-    }
-    
-    .Btn_Menu:hover span {
-    -webkit-animation: icon3d 200ms infinite;
-    animation: icon3d 200ms infinite;
-    }
       
 
 @media screen and ( max-width:900px ) {

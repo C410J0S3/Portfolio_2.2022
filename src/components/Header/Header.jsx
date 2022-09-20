@@ -1,7 +1,15 @@
 import React from 'react'
+
+// Components
 import Navbar from '../Navbar/Navbar';
+
+
 import './Header.scss'
+
+// Dependencias
 import { motion } from "framer-motion";
+
+// Animation
 import { LogoAnimation } from '../animation';
 
 
@@ -14,11 +22,23 @@ const Header = () => {
 
         <div className='header around'>
 
-          <motion.a variants={LogoAnimation} transition={{delay: 0.2, duration: 0.9, type: "tween"}} href='#Home' className='flex'>
+          <motion.a 
+            variants={LogoAnimation} 
+            transition={{
+              delay: 0.2, 
+              duration: 0.9, 
+              type: "tween"
+            }} 
+              href='#Home' 
+              className='flex'
+            >
+
             <div className='logo flex' >
+              
               <div className='bg_logo' ></div>
-              <h2 className='scan'  data-text="Caio...">Caio...</h2>
+              
             </div>
+
           </motion.a>
 
           <Navbar />
