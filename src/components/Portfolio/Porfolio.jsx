@@ -66,7 +66,7 @@ const Portfolio = () => {
                 <div class="descrit">
                   <h3>Rolls-Royce</h3>
                   <p>Site feito em React JS / NODE-SASS / FRAMER-MOTION / .... composição do Portfólio<br/>
-                  <a href="https://github.com/C410J0S3/Wolf_Page" target="_blank" rel="noopener noreferrer">@Rolls-Royce</a></p>
+                  <a href="https://github.com/C410J0S3/RR" target="_blank" rel="noopener noreferrer">@Rolls-Royce</a></p>
                 </div>
               </motion.li>
 
